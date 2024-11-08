@@ -22,6 +22,6 @@ public class RataNilai13 {
             System.out.println("Rata-rata Nilai Mahasiswa ke-" + i + " adalah " + rataNilai);
             i++;
         }
-
+        input13.close();
     }
 }
