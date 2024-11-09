@@ -8,16 +8,17 @@ public class Pertanyaan1 {
 
         System.out.print("Masukkan jumlah N = ");
         N = input13.nextInt();
-        
+
         for (int i = 1; i <= N; i++) {
             for (int j = 1; j<=N;j++) {
                 if (i == 1 || i == N || j == 1 || j == N) {
-                    System.out.print("*");
+                    System.out.print(N);
                 } else {
                     System.out.print(" ");
                 }
             }
             System.out.println();
         }
+        input13.close();
     }
 }
